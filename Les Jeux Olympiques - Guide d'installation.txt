@@ -1,0 +1,36 @@
+Guide d’installation
+Windows
+
+Installation de WAMP
+Il vous faut installer le serveur WAMP afin de pouvoir utiliser notre application web. Le programme d’installation se situe à l’adresse suivante : http://www.wampserver.com/en/
+Installation d’un éditeur de code
+Vous avez plusieurs solutions pour lire les codes sources : Certaines solutions sont payantes (Adobe DreamWeaver) ou bien gratuites, comme NotePad++ (téléchargeable à l’adresse suivante : http://notepad-plus-plus.org/ ) 
+Procédure d’installation
+* Lancer les services du serveur Wamp à partir de de la barre d’icônes. Cliquer sur « Start all Services », puis ouvrir la page PhP My Admin.
+* Rentrer les identifiants « root » et laisser le champ du mot de passe vide.
+* Extraire le dossier « JO » à partir de l’archive « archive_JO » et le placer dans le dossier « www » de WAMP.
+* A partir de la page PhP My Admin, cliquer sur l’onglet « Import », puis sélectionner le fichier en .sql dans le dossier précédemment extrait, afin de charger la base de données.
+* Une fois la base de données chargée, il suffit de rentrer l’adresse « http://localhost/JO/application_jo.php”
+* Bonne navigation dans notre application Web !
+Macintosh
+
+Installation de MAMP
+Il vous faut installer le serveur MAMP afin de pouvoir utiliser notre application web. Le programme d’installation se situe à l’adresse suivante : http://www.mamp.info/en/index.html
+Installation d’un éditeur de code
+Vous avez plusieurs solutions pour lire les codes sources : Certaines solutions sont payantes (Adobe DreamWeaver) ou bien gratuites, comme NotePad++ (téléchargeable à l’adresse suivante : http://notepad-plus-plus.org/ ) 
+Procédure d’installation
+* Lancer les services du serveur Wamp à partir de de la barre d’icônes. Cliquer sur « Start all Services », puis ouvrir la page PhP My Admin.
+* Rentrer les identifiants « root » et « root » pour le mot de passe.
+
+
+* Modifier le fichier « connexion.php » de la manière suivante :
+	<?php
+	mysql_connect('localhost', 'root', 'root') or die('Could not connect');
+	mysql_select_db('jeux olympiques') or die('Could not select DB') ;
+Il faut donc insérer le mot de passe « root » dans la troisième ligne.
+* Extraire le dossier « JO » à partir de l’archive « archive_JO » et le placer dans le dossier « www » de WAMP.
+* A partir de la page PhP My Admin, cliquer sur l’onglet « Import », puis sélectionner le fichier en .sql dans le dossier précédemment extrait, afin de charger la base de données.
+* Une fois la base de données chargée, il suffit de rentrer l’adresse « http://localhost/JO/application_jo.php”
+* Bonne navigation dans notre application Web !
+
+

@@ -1,0 +1,93 @@
+
+
+
+
+
+
+   Info TC4
+Les Jeux Olympiques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Groupe : C2a
+
+Équipe :
+Rannou Hugo
+Belgodère Clément
+Moncho Pierre-Alexandre
+Groussard Arnaud 
+
+
+Professeur : Emmanuel Delandrea
+
+
+
+
+I. Contexte
+   Il nous a été demandé de réaliser une application web autour des Jeux Olympiques. Cette application se veut être davantage qu’une base de données dans laquelle il est possible de consulter l’historique des JO, modifier les informations ou encore en supprimer. Le développement de cette application se réalise grâce au langage PHP sur un serveur Apache et en utilisant MySQL comme base de données. 
+
+II. Fonctionnement
+a) Applications
+* Serveur Apache – WAMP
+* Un navigateur récent – Chrome, Mozilla, Safari, IE -  pour l’affichage du CSS3, HTML5
+* MySQL installé sur le serveur Apache
+
+III. L’application
+a) Utilisation générale
+
+Page principale : 
+
+* Tableau récapitulant les derniers Jeux Olympiques décrits par leur date, le lieu, le nombre d’épreuves, de nations participantes, de participants et un événement particulier propre aux Jeux. Il est possible sur chaque JO pour afficher la feuille de détails 
+* Possibilité de supprimer et modifier la base de données des JO. La suppression s’effectue en appuyant sur la croix à l’extrémité du tableau
+* Possibilité d’ajouter de nouveaux JO en remplissant le formulaire prévu à cet effet 
+* Onglet : « Aller au tag »
+* Onglet « Retour à l’accueil »
+
+Page modification : 
+
+* Possibilité de modifier une ou plusieurs caractéristiques d’un JO. 
+* Le formulaire de modification est rempli relativement à la page JO sur laquelle l’utilisateur est. 
+* Possibilité d’ajouter des tags existants ou inexistants
+* Onglet : « Aller au tag »
+* Onglet « Retour à l’accueil »
+
+
+Page tag : 
+
+* Tous les tags sont référencés dans un tableau avec leur ID
+* Onglet « Retour à l’accueil »
+
+Page tag à partir de la page modification :
+* Tous les tags sont référencés dans un tableau. Ceux liés au JO sont marqués en gras
+* Possibilité de supprimer la liaison entre le tag et le JO en cliquant sur « Supprimer le tag ‘ID’ »
+* Onglet « Retour à l’accueil »
+
+
+IV. Cahier des charges
+
+* Application simple et facilement lisible. Volonté d’avoir accès directement aux informations importantes 
+* Possibilité de modification rapide des informations relatives aux JO 
+* Accès intuitif aux données
+* Diversité des informations avec détails propres à chaque JO
+* Tags relatifs aux JO. Possibilité de les supprimer ou modifier. Surbrillance pour ceux associés aux JO. 
+	
+
+
+
+      
+1
+
+

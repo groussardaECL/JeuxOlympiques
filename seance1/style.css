@@ -1,0 +1,31 @@
+body {
+  background-color: #f0f0ea;
+  font-family: 'Trebuchet MS';
+  padding: 2em;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #A0A0A0;
+}
+th {
+  background-color: #A0A0A0;
+  color: #f0f0ea; 
+}
+th, td {
+  border-left: 1px solid #A0A0A0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+th + th {
+  border-left: 1px solid #f0f0ea;
+}
+form span {
+  display: block;
+  float: left;
+  width: 10em;
+  clear: left;
+}
+form input {
+  margin-top: 5px;
+}
+
